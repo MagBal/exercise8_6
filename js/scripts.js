@@ -12,8 +12,10 @@ if (value > 0) {
 	console.log('Positive result.');
 } else if (value < 0) {
 	console.log('Negative result.');
-} else {
+} else if (value == 0) {
 	console.log('The result is equal to 0.');
+} else {
+	console.log('Wrong data!');
 }
 
 var value = value == 0 ? ('Value is equal to 0.') : ('Value is diffrent of 0.');
