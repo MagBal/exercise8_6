@@ -10,12 +10,16 @@ console.log('The result of operation: (' + a + '*' + a + ') - (2 *' + a + '*' + 
 
 if (value > 0) {
 	console.log('Positive result.');
+	alert('Positive result.');
 } else if (value < 0) {
 	console.log('Negative result.');
+	alert('Negative result.');
 } else if (value == 0) {
 	console.log('The result is equal to 0.');
+	alert('The result is equal to 0.');
 } else {
 	console.log('Wrong data!');
+	alert('Wrong data!');
 }
 
 var value = value == 0 ? ('Value is equal to 0.') : ('Value is diffrent of 0.');
